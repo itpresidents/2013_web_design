@@ -1,0 +1,118 @@
+/*HTML styles and main container*/
+body {
+	background-image: url('../img/gradient.gif');
+	background-repeat: repeat-x;
+	margin: 0 0 0 0;
+}
+
+h1 {
+	font-family: Arial;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+p {
+	font-family: Arial;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	border-style: solid;
+	border-width: 10px;
+	border-color: red;
+	float: right;
+}
+
+#container {
+	width: 960px;
+	height: 100%;
+	margin: 0 auto 0 auto;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*Header styles*/
+#header {
+	width: 940px;
+	height: 100px;
+	background-color: #fff;
+	padding: 10px;
+}
+
+#logo {
+	width: 100px;
+	height: 100px;
+	background-image: url('../img/logo_rollover.png');
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+}
+
+#logo:hover {
+	background-position: 0 -100px;
+}
+
+#nav {
+	margin-top: 75px;
+	position: relative;
+	float: right;
+}
+
+#homeBtn {
+	position: relative;
+	float: left;
+}
+
+#portBtn {
+	position: relative;
+	float: left;
+}
+
+#contactBtn {
+	position: relative;
+	float: left;
+}
+
+.button {
+	padding: 5px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #000;
+}
+
+/*Main content area*/
+#content {
+	width: 500px;
+	padding: 10px;
+	position: relative;
+	float: left;
+}
+
+#sidebar {
+	width: 400px;
+	position: relative;
+	float: right;
+	padding: 10px;
+}
+
+/*Footer content area*/
+#footer {
+	width: 940px;
+	background-color: #ccc;
+	position: relative;
+	float: left;
+	padding: 10px;
+	bottom: 0;
+}
+
+.footerClass p {
+	font-size: 10px;
+}

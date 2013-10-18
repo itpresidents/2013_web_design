@@ -1,0 +1,69 @@
+/*HTML Tags*/
+body {
+	margin: 0;
+	background-image: url(../img/gradient.gif);
+	background-repeat: repeat-x;
+}
+
+a {
+	font-family: Arial;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*Main Container*/
+#mainContainer {
+	width: 960px;
+	height: 100%;
+	margin: 0 auto 0 auto;
+	background-color: red;
+}
+
+/*Header Container*/
+#header {
+	width: 960px;
+	height: 100px;
+	background-color: #000000;
+}
+
+#logo {
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/logo_rollover.png);
+	background-repeat: no-repeat;
+}
+
+#nav {
+	padding: 10px;
+	position: relative;
+	float: right;
+	background-color: red;
+}
+
+#logo:hover {
+	background-position: 0 -100px;
+}
+
+/*Body Container*/
+#body_content {
+	width: 500px;
+
+}
+
+/*Sidbar Container*/
+
+/*Footer Container*/
+#footer {
+	width: 960px;
+	height: 100px;
+	position: fixed;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+}
